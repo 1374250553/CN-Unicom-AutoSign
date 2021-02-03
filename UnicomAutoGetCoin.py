@@ -48,7 +48,7 @@ class Qiandao():
         #    print("cant get cookies")
         data2={'stepflag':'22'}
         data2=urllib.parse.urlencode(data2).encode('utf-8')
-        a = 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI5NzMwNjIsInRva2VuIjp7ImxvZ2luVXNlciI6IjE4NTAzMDU1Mzc1IiwicmFuZG9tU3RyIjoieWgxZjFiMmUxNjEyMzY4MjYyIn0sImlhdCI6MTYxMjM2ODI2Mn0.WkGVbCioVL-7eoNIOT7VyXyxEiXh2onhDrFS08TpfgynnybFRsrPe3ek--gq0bmNs9b0OC9JS_1WnMeIFq_Y8A; c_id=1ccfe164453467eeee142b9c60302bfa92f7792b45a69e8a849f5b97f30931d5'
+        a = 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI5NzMwNjIsInRva2VuIjp7ImxvZ2luVXNlciI6IjE4NTAzMDU1Mzc1IiwicmFuZG9tU3RyIjoieWgxZjFiMmUxNjEyMzY4MjYyIn0sImlhdCI6MTYxMjM2ODI2Mn0.WkGVbCioVL-7eoNIOT7VyXyxEiXh2onhDrFS08TpfgynnybFRsrPe3ek--gq0bmNs9b0OC9JS_1WnMeIFq_Y8A'
         
         req3 = urllib2.Request("https://act.10010.com/SigninApp/signin/querySigninActivity.htm?token=" + a)
         if urllib2.urlopen(req3).getcode() == 200:
