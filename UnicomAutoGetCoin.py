@@ -29,11 +29,11 @@ class Qiandao():
             'Accept': '*/*',
             'Content-Type': 'application/x-www-form-urlencoded',
             'Connection': 'keep-alive',
-            'Cookie': 'channel=GGPD; city=034|358; devicedId=FE0172BD-1BF5-4774-BC31-DD77360C3214; c_sfbm=234g_00; logHostIP=null; mobileService1=1Y4RfyPLLL0tvLpGnRK2QL5gQg1bDWSjnLvZ2RWKtWBWYywxWQpL!899433259; mobileServiceAll=dfd8b2e9f03c6c97f078fed5a9b73a86',
-            'User-Agent': 'ChinaUnicom4.x/230 CFNetwork/1128.0.1 Darwin/19.6.0',
+            'Cookie': '_version=iphone_c@8.0101; city=051|540|90657326|-99; cw_mutual=7064d003eb3c8934e769e430ecf3d64af98860225d2b39ea5a384904434dbb5e5bd354cc17afd089bf019d59a825e82765ed4b6148458fecb59f7ef3f5a972c6; ecs_acc=mv6aWHxk7wbabTvEI2D32I7kwtFHCT3PAuhWTJIecDvCyegHUk1LdPAI556fd0sO1HqWK25KUpJsDHC9FfTjiEJl55X5jt3F46VKT5ALSG9Nx12Fdj3QzxsXbYizxswUprKu9UpjCMFk7VCWpCIK7Sp9H86FzNOrAJKsuGp2Se0=; ecs_token=eyJkYXRhIjoiM2VhYTI3MjNlMTJkY2M0Y2Q3NWFlNDA3NzE3NDNkMTkwMjM0ZjFjMzRmNjk5MmY4ZTZiYjIxNmVmYTE2NjdmYjdmMTQzODcwMWY1NzY4YjRlY2VjYWJhZjQ0M2VlMTBiNDMzOWFlNDRjNzJhNTM5NTZlODExYjE5M2M0MTQxYzVlNTY3YzhhNzg5MzM1YWQ4ZTZkNWZmZGE2ZmQ1NjRiOTdkMzk3MjA1YmNkNDFkNDVlYTgyODY2YjRkODk5YzliIiwidmVyc2lvbiI6IjAwIn0=; jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGUiOiIxODUwMzA1NTM3NSIsInBybyI6IjA1MSIsImNpdHkiOiI1NDAiLCJpZCI6IjUzN2QwNDYzMWEyYjY5MGM5NGZhNjc0YjE5NWFiYWQyIn0.K32MEsF8p7MxQzXgVVQjwtlZ4QF5TjDItDtKSvhnnqQ; login_type=19; u_account=18503055375; c_sfbm=234g_00; channel=GGPD; devicedId=009CE565-D87A-463D-AAE3-3D56082406CC',
+            'User-Agent': 'ChinaUnicom4.x/1000 CFNetwork/1209 Darwin/20.2.0',
             'Accept-Language': 'zh-cn',
             'Accept-Encoding': 'gzip, deflate, br',
-            'Content-Length': '910'
+            'Connection': 'keep-alive'
         }
         data = data.encode('utf-8')
         req2 = urllib2.Request("http://m.client.10010.com/mobileService/login.htm",headers=headers)
